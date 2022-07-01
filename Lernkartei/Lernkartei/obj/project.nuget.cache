@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "SYZ9qe31a8qpcIAqM/vu9NyTwYh3pZ+Zgz2uUhXH61y0nkfdGauFN+frIV7EZlhR2WulMxBK3EQZjWrfVWkCsw==",
+  "dgSpecHash": "dzLLheX8GNgKLZd4h8PDA/JQINSib+4lyF/rSelGdpvVe29QL7nr5m35aI4QIUlS3F3ElMvHkD6ZDhQulNu1bg==",
   "success": true,
   "projectFilePath": "I:\\Programin\\Lernkartei\\Lernkartei\\Lernkartei\\Lernkartei\\Lernkartei.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Behnam\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Behnam\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Behnam\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\Behnam\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\Behnam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Behnam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\Behnam\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.1\\swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
+    "C:\\Users\\Behnam\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
+    "C:\\Users\\Behnam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
+    "C:\\Users\\Behnam\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512"
   ],
   "logs": []
 }
