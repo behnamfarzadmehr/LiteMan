@@ -1,0 +1,15 @@
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\bin\Debug\net6.0\Lernkartei.Dto.deps.json
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\bin\Debug\net6.0\Lernkartei.Dto.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\bin\Debug\net6.0\Lernkartei.Dto.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\obj\Debug\net6.0\Lernkartei.Dto.csproj.AssemblyReference.cache
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\obj\Debug\net6.0\Lernkartei.Dto.GeneratedMSBuildEditorConfig.editorconfig
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\obj\Debug\net6.0\Lernkartei.Dto.AssemblyInfoInputs.cache
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\obj\Debug\net6.0\Lernkartei.Dto.AssemblyInfo.cs
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\obj\Debug\net6.0\Lernkartei.Dto.csproj.CoreCompileInputs.cache
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\obj\Debug\net6.0\Lernkartei.Dto.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\obj\Debug\net6.0\refint\Lernkartei.Dto.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\obj\Debug\net6.0\Lernkartei.Dto.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\obj\Debug\net6.0\ref\Lernkartei.Dto.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\bin\Debug\net6.0\Lernkartei.Common.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\bin\Debug\net6.0\Lernkartei.Common.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Dto\obj\Debug\net6.0\Lernkartei.Dto.csproj.CopyComplete

@@ -1,0 +1,17 @@
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\bin\Debug\net6.0\Lernkartei.Service.Abstract.deps.json
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\bin\Debug\net6.0\Lernkartei.Service.Abstract.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\bin\Debug\net6.0\Lernkartei.Service.Abstract.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\obj\Debug\net6.0\Lernkartei.Service.Abstract.csproj.AssemblyReference.cache
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\obj\Debug\net6.0\Lernkartei.Service.Abstract.GeneratedMSBuildEditorConfig.editorconfig
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\obj\Debug\net6.0\Lernkartei.Service.Abstract.AssemblyInfoInputs.cache
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\obj\Debug\net6.0\Lernkartei.Service.Abstract.AssemblyInfo.cs
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\obj\Debug\net6.0\Lernkartei.Service.Abstract.csproj.CoreCompileInputs.cache
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\obj\Debug\net6.0\Lernkartei.Service.Abstract.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\obj\Debug\net6.0\refint\Lernkartei.Service.Abstract.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\obj\Debug\net6.0\Lernkartei.Service.Abstract.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\obj\Debug\net6.0\ref\Lernkartei.Service.Abstract.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\bin\Debug\net6.0\Lernkartei.Common.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\bin\Debug\net6.0\Lernkartei.Dto.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\bin\Debug\net6.0\Lernkartei.Dto.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\bin\Debug\net6.0\Lernkartei.Common.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Service.Abstract\obj\Debug\net6.0\Lernkartei.Service.Abstract.csproj.CopyComplete

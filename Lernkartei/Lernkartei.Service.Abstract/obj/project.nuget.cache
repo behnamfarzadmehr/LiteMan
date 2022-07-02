@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yRb1MaLbklzarLDjwxxJLmKHi+bT7Qtt0fZeGCt5VDmxAX01w4j8bBw5hfsZhnPLnCUfWgHOJLBG4kcPibkchg==",
+  "dgSpecHash": "esFdVCdb/U6+J7Ue9Fe7AMTjOlm0RxMeyhN8YKHJ/Hh79lzW3xR85qzcB85drtsyHqHFZ7sIsXbK84umPEzA+w==",
   "success": true,
   "projectFilePath": "I:\\Programin\\Lernkartei\\Lernkartei\\Lernkartei\\Lernkartei.Service.Abstract\\Lernkartei.Service.Abstract.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Behnam\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Behnam\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
