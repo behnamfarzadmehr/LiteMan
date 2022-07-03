@@ -10,3 +10,16 @@ I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\obj\Debug\net6.0
 I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\obj\Debug\net6.0\refint\Lernkartei.Config.dll
 I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\obj\Debug\net6.0\Lernkartei.Config.pdb
 I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\obj\Debug\net6.0\ref\Lernkartei.Config.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Common.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Domain.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Dto.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Infrastructure.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Service.Abstract.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Service.Concrete.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Infrastructure.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Service.Abstract.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Service.Concrete.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Common.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Domain.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\bin\Debug\net6.0\Lernkartei.Dto.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Config\obj\Debug\net6.0\Lernkartei.Config.csproj.CopyComplete

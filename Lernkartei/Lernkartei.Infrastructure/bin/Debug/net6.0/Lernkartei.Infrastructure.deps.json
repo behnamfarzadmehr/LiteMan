@@ -564,6 +564,9 @@
         }
       },
       "Lernkartei.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "6.0.6"
+        },
         "runtime": {
           "Lernkartei.Domain.dll": {}
         }
