@@ -28,8 +28,4 @@
     <ProjectReference Include="..\Lernkartei.Service.Abstract\Lernkartei.Service.Abstract.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

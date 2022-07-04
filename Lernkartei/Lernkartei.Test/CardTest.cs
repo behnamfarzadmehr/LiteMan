@@ -5,12 +5,13 @@ using Lernkartei.Dto.Card;
 using Lernkartei.Infrastructure.Concrete;
 using Lernkartei.Service.Abstract.Card;
 using Lernkartei.Service.Concrete.Card;
+using Lernkartei.Test.Persist;
 using Microsoft.EntityFrameworkCore;
 using Swish.InfraStructure.context;
 
 namespace Lernkartei.Test
 {
-    public class CardTest
+    public class CardTest : PersistTest
     {
         DbContextOptionsBuilder<LernkarteiContext> optionsBuilder = new();
         private readonly ICardService _cardService;
@@ -26,7 +27,7 @@ namespace Lernkartei.Test
         [Fact]
         public void Add_Card_SuccessfullyAddRowToCard()
         {
-            InsertDto model = new InsertDto
+            CardDto model = new CardDto
             {
                 Id = 0,
                 Front = "انجام دادن",
@@ -36,7 +37,7 @@ namespace Lernkartei.Test
                 Plural = null,
                 Perfekt = "gemacht"
             };
-            InsertDto result = _cardService.Insert(model);
+            CardDto result = _cardService.Add(model);
             result.Id.Should().BeGreaterThan(0);
         }
     }

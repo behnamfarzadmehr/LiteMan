@@ -47,11 +47,13 @@ namespace Lernkartei.Infrastructure.Migrations
                         .HasColumnName("Front");
 
                     b.Property<string>("Perfekt")
-                        .HasColumnType("nvarchar")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)")
                         .HasColumnName("Perfekt");
 
                     b.Property<string>("Plural")
-                        .HasColumnType("nvarchar")
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)")
                         .HasColumnName("Plural");
 
                     b.Property<int>("WordTypes")

@@ -5,20 +5,20 @@ using Lernkartei.Common.AutoMapper;
 
 namespace Lernkartei.Service.Concrete.Card
 {
-    public class CardService : ICardService
+    public class CardService : MainService<Domain.Entities.Card, CardDto>,ICardService
     {
         private readonly ICardRepository _cardRepository;
-        public CardService(ICardRepository cardRepository)
+        public CardService(ICardRepository cardRepository):base(cardRepository)
         {
             _cardRepository = cardRepository;
         }
 
-        public InsertDto Insert(InsertDto model) 
+        public CardDto Insert(CardDto model) 
         {
             try
             {
-                Domain.Entities.Card? result = _cardRepository.Add(entity: model.MapTo<InsertDto, Domain.Entities.Card>());
-                return result.MapTo<Domain.Entities.Card, InsertDto>();
+                Domain.Entities.Card? result = _cardRepository.Add(entity: model.MapTo<CardDto, Domain.Entities.Card>());
+                return result.MapTo<Domain.Entities.Card, CardDto>();
             }
             catch (Exception)
             {

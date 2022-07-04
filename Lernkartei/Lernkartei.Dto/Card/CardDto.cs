@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Lernkartei.Dto.Card
 {
-    public class InsertDto
+    public class CardDto
     {
-        public InsertDto()
+        public CardDto()
         {
             Front = "";
             Back = "";

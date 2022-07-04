@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lernkartei.Service.Abstract.Card
 {
-    public interface ICardService
+    public interface ICardService : IMainService<CardDto>
     {
-        InsertDto Insert(InsertDto model);
     }
 }
