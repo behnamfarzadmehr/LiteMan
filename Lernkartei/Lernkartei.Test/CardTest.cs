@@ -35,7 +35,9 @@ namespace Lernkartei.Test
                 WordTypes = WordTypes.Verb,
                 Artikle = Artikle.Null,
                 Plural = null,
-                Perfekt = "gemacht"
+                Perfekt = "gemacht",
+                CreateDateTime = DateTime.Now,
+                Date = DateTime.Now.ToShortDateString()
             };
             CardDto result = _cardService.Add(model);
             result.Id.Should().BeGreaterThan(0);

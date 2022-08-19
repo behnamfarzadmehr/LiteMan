@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tW/yDIVbSToVJGZtyKkjYPj20/4Pfq3vrex25oMtFNHpUZn9qy9knEmhujNhrH8AAM88vfcs0how1Ss+WzPxUA==",
+  "dgSpecHash": "mVEd2j6XncRa/f73NzvBbXYLoReA9QcB+vjm7YX8QkEmmqlLA5lD4l9qGRTg7L0MJ2yoQxWuW4UPDX+QCTp33A==",
   "success": true,
   "projectFilePath": "I:\\Programin\\Lernkartei\\Lernkartei\\Lernkartei\\Lernkartei.Domain\\Lernkartei.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Behnam\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Behnam\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.6\\microsoft.aspnetcore.cryptography.internal.6.0.6.nupkg.sha512",
     "C:\\Users\\Behnam\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.6\\microsoft.aspnetcore.cryptography.keyderivation.6.0.6.nupkg.sha512",
+    "C:\\Users\\Behnam\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Behnam\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Behnam\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\Behnam\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

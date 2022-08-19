@@ -17,7 +17,7 @@ namespace Lernkartei.Dto.Card
         /// <summary>
         /// کلید جدول
         /// </summary>
-        public int Id { get; set; }
+        public long Id { get; set; }
         /// <summary>
         /// نوشته روی کارت
         /// </summary>
@@ -42,5 +42,13 @@ namespace Lernkartei.Dto.Card
         /// پرفکت اگر فعل بود
         /// </summary>
         public string? Perfekt { get; set; }
+        /// <summary>
+        /// تاریخ ایجاد
+        /// </summary>
+        public DateTime? CreateDateTime { get; set; }
+        /// <summary>
+        /// تاریخ شروع درس
+        /// </summary>
+        public string Date { get; set; }
     }
 }

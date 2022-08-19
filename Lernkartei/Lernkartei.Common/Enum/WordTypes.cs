@@ -11,5 +11,6 @@ namespace Lernkartei.Common.Enum
         Noun = 1,
         Verb = 2,
         Adjective = 3,
+        sentence = 4
     }
 }

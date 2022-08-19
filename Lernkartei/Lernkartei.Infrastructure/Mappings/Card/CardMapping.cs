@@ -16,7 +16,7 @@ namespace Lernkartei.InfraStructure.Mappings.Card
             builder.Property(c => c.Perfekt).HasColumnName("Perfekt").HasColumnType("nvarchar").HasMaxLength(250);
             builder.Property(c => c.WordTypes).HasColumnName("WordTypes").HasColumnType("int").IsRequired();
             builder.Property(c => c.Plural).HasColumnName("Plural").HasColumnType("nvarchar").HasMaxLength(250);
-            builder.Property(c => c.Artikle).HasColumnName("Artikle").HasColumnType("bigint").IsRequired();
+            builder.Property(c => c.Artikle).HasColumnName("Artikle").HasColumnType("int").IsRequired();
         }
     }
 }

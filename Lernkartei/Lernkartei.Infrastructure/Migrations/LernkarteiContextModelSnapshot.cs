@@ -24,14 +24,14 @@ namespace Lernkartei.Infrastructure.Migrations
 
             modelBuilder.Entity("Lernkartei.Domain.Entities.Card", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("bigint");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
 
-                    b.Property<long>("Artikle")
-                        .HasColumnType("bigint")
+                    b.Property<int>("Artikle")
+                        .HasColumnType("int")
                         .HasColumnName("Artikle");
 
                     b.Property<string>("Back")
@@ -39,6 +39,9 @@ namespace Lernkartei.Infrastructure.Migrations
                         .HasMaxLength(250)
                         .HasColumnType("nvarchar(250)")
                         .HasColumnName("Back");
+
+                    b.Property<DateTime>("CreateDateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Front")
                         .IsRequired()
@@ -63,6 +66,33 @@ namespace Lernkartei.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Card", "Crd");
+                });
+
+            modelBuilder.Entity("Lernkartei.Domain.Entities.CardHouse", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("ActionDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("ActionDate");
+
+                    b.Property<long>("CardId")
+                        .HasColumnType("bigint")
+                        .HasColumnName("CardId");
+
+                    b.Property<int>("House")
+                        .HasColumnType("int")
+                        .HasColumnName("House");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CardId");
+
+                    b.ToTable("CardHouse", "Crd");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -263,6 +293,17 @@ namespace Lernkartei.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Lernkartei.Domain.Entities.CardHouse", b =>
+                {
+                    b.HasOne("Lernkartei.Domain.Entities.Card", "Card")
+                        .WithMany("CardHouse")
+                        .HasForeignKey("CardId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Card");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -312,6 +353,11 @@ namespace Lernkartei.Infrastructure.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Lernkartei.Domain.Entities.Card", b =>
+                {
+                    b.Navigation("CardHouse");
                 });
 #pragma warning restore 612, 618
         }

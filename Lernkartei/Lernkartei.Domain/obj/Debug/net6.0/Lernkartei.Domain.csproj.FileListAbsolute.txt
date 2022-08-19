@@ -10,3 +10,6 @@ I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Domain\obj\Debug\net6.0
 I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Domain\obj\Debug\net6.0\refint\Lernkartei.Domain.dll
 I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Domain\obj\Debug\net6.0\Lernkartei.Domain.pdb
 I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Domain\obj\Debug\net6.0\ref\Lernkartei.Domain.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Domain\bin\Debug\net6.0\Lernkartei.Common.dll
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Domain\bin\Debug\net6.0\Lernkartei.Common.pdb
+I:\Programin\Lernkartei\Lernkartei\Lernkartei\Lernkartei.Domain\obj\Debug\net6.0\Lernkartei.Domain.csproj.CopyComplete

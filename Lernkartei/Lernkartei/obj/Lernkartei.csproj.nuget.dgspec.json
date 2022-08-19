@@ -176,7 +176,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "I:\\Programin\\Lernkartei\\Lernkartei\\Lernkartei\\Lernkartei.Common\\Lernkartei.Common.csproj": {
+                "projectPath": "I:\\Programin\\Lernkartei\\Lernkartei\\Lernkartei\\Lernkartei.Common\\Lernkartei.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

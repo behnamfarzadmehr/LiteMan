@@ -5,6 +5,7 @@ using Lernkartei.Dto.Card;
 namespace Lernkartei.RestApi.Controllers
 {
     [Route("api/[controller]")]
+
     [ApiController]
     public class CardController: ControllerBase
     {
@@ -36,7 +37,7 @@ namespace Lernkartei.RestApi.Controllers
                 CardDto discountType = _cardService.GetById(id);
                 return Ok(discountType);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 throw;
             }
@@ -46,6 +47,8 @@ namespace Lernkartei.RestApi.Controllers
         {
             try
             {
+                model.CreateDateTime = DateTime.Now;
+                model.Date = DateTime.Now.ToShortDateString();
                 CardDto discountType = _cardService.Add(model);
                 return StatusCode(StatusCodes.Status201Created, discountType);
             }

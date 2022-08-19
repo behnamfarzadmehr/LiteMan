@@ -10,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 LernkarteiOption options = builder.Configuration.Get<LernkarteiOption>();
 builder.Services.AddLernkartei(options);
+
+builder.Services.AddCors();
 // Adding Authentication
 builder.Services.AddAuthentication(options =>
 {
@@ -55,7 +57,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors(builder =>
+{
+    builder
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader();
+});
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

@@ -1,4 +1,6 @@
-﻿namespace Lernkartei.Domain.Entities
+﻿using System.Collections.ObjectModel;
+
+namespace Lernkartei.Domain.Entities
 {
     public partial class Card
     {
@@ -6,14 +8,18 @@
         {
             Front = "";
             Back = "";
+            CardHouse = new Collection<CardHouse>();
         }
-        public int Id { get; set; }
+        public long Id { get; set; }
         public string Front { get; set; }
         public string Back { get; set; }
         public string? Plural { get; set; }
         public string? Perfekt { get; set; }
         public int WordTypes { get; set; }
         public int Artikle { get; set; }
+        public DateTime CreateDateTime { get; set; }
 
+        //foreign key
+        public virtual ICollection<CardHouse> CardHouse { get; set; }
     }
 }
