@@ -25,10 +25,13 @@ namespace Swish.Config
                       .AddDefaultTokenProviders();
             collection.AddDbContext<LernkarteiContext>(builder =>
                                         builder.UseSqlServer(options.ConnectionString));
-            collection.AddScoped<ICardService, CardService>();
-            collection.AddScoped<ICardRepository, CardRepository>();
 
-            
+            //services
+            collection.AddScoped<ICardService, CardService>();
+            collection.AddScoped<ICardHouseService, CardHouseService>();
+            //Repositories
+            collection.AddScoped<ICardRepository, CardRepository>();
+            collection.AddScoped<ICardHouseRepository, CardHouseRepository>();
 
 
 

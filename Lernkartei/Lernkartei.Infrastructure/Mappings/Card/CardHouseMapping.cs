@@ -14,6 +14,7 @@ namespace Lernkartei.InfraStructure.Mappings.Card
             builder.Property(c => c.CardId).HasColumnName("CardId").IsRequired();
             builder.Property(c => c.House).HasColumnName("House").IsRequired();
             builder.Property(c => c.ActionDate).HasColumnName("ActionDate").IsRequired();
+            builder.Property(c => c.Lerned).HasColumnName("Lerned").IsRequired();
 
             //foreignkey
             builder.HasOne(c => c.Card).WithMany(s => s.CardHouse).HasForeignKey(c => c.CardId).OnDelete(DeleteBehavior.Cascade);

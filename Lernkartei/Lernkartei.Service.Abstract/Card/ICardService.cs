@@ -9,5 +9,7 @@ namespace Lernkartei.Service.Abstract.Card
 {
     public interface ICardService : IMainService<CardDto>
     {
+        public CardDto Insert(CardDto model);
+        bool SetCardAfterReview(CardDto card);
     }
 }

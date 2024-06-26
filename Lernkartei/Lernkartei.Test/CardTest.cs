@@ -1,6 +1,7 @@
 ﻿using FluentAssertions;
 using Lernkartei.Common.Enum;
 using Lernkartei.Domain.Abstraction;
+using Lernkartei.Domain.Entities;
 using Lernkartei.Dto.Card;
 using Lernkartei.Infrastructure.Concrete;
 using Lernkartei.Service.Abstract.Card;
@@ -16,13 +17,15 @@ namespace Lernkartei.Test
         DbContextOptionsBuilder<LernkarteiContext> optionsBuilder = new();
         private readonly ICardService _cardService;
         private readonly ICardRepository _cardREpository;
+        private readonly ICardHouseRepository _cardHouseRepository;
         private readonly LernkarteiContext _contex;
         public CardTest()
         {
             optionsBuilder.UseSqlServer(GlobalVariables.connectionstring);
             _contex = new LernkarteiContext(optionsBuilder.Options);
             _cardREpository = new CardRepository(_contex);
-            _cardService = new CardService(_cardREpository);
+            _cardHouseRepository = new CardHouseRepository(_contex);
+            _cardService = new CardService(_cardREpository, _cardHouseRepository);
         }
         [Fact]
         public void Add_Card_SuccessfullyAddRowToCard()
@@ -37,9 +40,16 @@ namespace Lernkartei.Test
                 Plural = null,
                 Perfekt = "gemacht",
                 CreateDateTime = DateTime.Now,
-                Date = DateTime.Now.ToShortDateString()
             };
             CardDto result = _cardService.Add(model);
+            CardHouse cardHouse = new CardHouse
+            {
+                ActionDate = DateTime.Now,
+                CardId = result.Id,
+                House = Common.Enum.Houses.House1,
+                Id = 0
+            };
+            _cardHouseRepository.Add(cardHouse);
             result.Id.Should().BeGreaterThan(0);
         }
     }

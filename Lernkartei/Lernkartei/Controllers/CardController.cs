@@ -48,8 +48,7 @@ namespace Lernkartei.RestApi.Controllers
             try
             {
                 model.CreateDateTime = DateTime.Now;
-                model.Date = DateTime.Now.ToShortDateString();
-                CardDto discountType = _cardService.Add(model);
+                CardDto discountType = _cardService.Insert(model);
                 return StatusCode(StatusCodes.Status201Created, discountType);
             }
             catch (Exception)
@@ -77,6 +76,19 @@ namespace Lernkartei.RestApi.Controllers
             {
                 bool discountType = _cardService.Delete(id);
                 return StatusCode(StatusCodes.Status204NoContent, discountType);
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        [HttpPut("SetCardAfterReview")]
+        public ActionResult SetCardAfterReview(CardDto card)
+        {
+            try
+            {
+                bool result = _cardService.SetCardAfterReview(card);
+                return Ok(result);
             }
             catch (Exception)
             {
